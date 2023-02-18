@@ -6,18 +6,22 @@ main{
     display: flex;
     flex-direction: column;
    align-items: center;
+  
 }
 
  .container{
     background-color: #ffffff;
     width: 870px;
     margin-top: 21px;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 30px;
+    border: 2px solid rgb(230, 4, 230);
 
  }   
  .top-players{
     margin-bottom: 30px;
+    border: 5px solid rgb(224, 7, 79);
+
  }
 .section-title{
     color: navy;
@@ -52,7 +56,11 @@ hr{
 .blogs{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-row-gap: 26px
+    grid-row-gap: 26px;
+    border: 3px solid rgb(7, 228, 18);
+    border-radius: 15px;
+    padding: 10px;
+    
 }
 
 .blog{
@@ -97,7 +105,10 @@ hr{
     grid-template-columns: repeat(3,1fr);
 
     grid-column-gap: 35px ;
-    margin: 20px;
+    margin: 10px;
+    border: 3px solid rgb(247, 7, 247);
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .course-info{
@@ -139,6 +150,8 @@ hr{
         background-color: rgb(226, 218, 218);
         grid-template-columns: repeat(1,1fr);
         margin: 10px;
+
+       
     }
     .player, .blog{
         flex-direction: column;
